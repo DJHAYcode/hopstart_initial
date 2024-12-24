@@ -1,0 +1,49 @@
+name: hopstart_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.8.0
+  smooth_page_indicator: ^1.2.0+3
+  
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/hi.png
+    - assets/images/fever.png
+    - assets/images/relaxed.png
+    - assets/images/brown-and-cony-bear.gif
+    - assets/images/hopstartlogo.png
+    - assets/images/hopstart_signup_bg.png
+    - assets/images/new_user_username.png
+    - assets/images/new_user_petname.png
+    - assets/images/new_user_pet_details.png
+    - assets/images/new_user_details_confirmation.png
+    - assets/images/hopstart_intro1.png
+    - assets/images/hopstart_intro2.png
+    - assets/images/hopstart_intro3.png
+    - assets/images/home_card.png
+    - assets/images/hopstart_login.png
+    - assets/images/hopstart_signup.png
+    - assets/images/hopstart_forgot_password.png
+    - assets/images/welcome_user.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
